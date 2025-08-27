@@ -23,11 +23,11 @@ This built-in function and method were combined in order to create a single defi
 
 The following functions and methods were used in this problem:
 
-A dictionary data type was utilized in order to store the equivalents of each word to an emoticon.
+A dictionary data type was utilized in order to store the equivalents of each word to an emoticon;
 
 emoticons = {"smile" : ":)", "grin" : ":D", "sad" : ":((", "mad" : ">:(" }
 
-In order to replace the word in the sentence, a for loop was used to find the word and reference it to its equivalent value in the dictionary before replacing it in the sentence.
+In order to replace the word in the sentence, a for loop was used to find the word and reference it to its equivalent value in the dictionary before replacing it in the sentence;
 
 for word, symbol in emoticons.items():
         sentence = sentence.replace(word, symbol)
