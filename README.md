@@ -49,4 +49,4 @@ last = list [-1] - this assigns the value in the last index [-1] of the list to 
 
 Thank you for reading! 
 
-To open the file, https://github.com/juliusmendizabal/ECE-2112-PA-1/blob/main/Programming%20Assignment%201.ipynb, then run all cells.
+To see the main python program for Programming Assignment 1, click this link https://github.com/juliusmendizabal/ECE-2112-PA-1/blob/main/Programming%20Assignment%201.ipynb and download. Open on Jupyter Notebook, then run all cells.
