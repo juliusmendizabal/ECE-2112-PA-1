@@ -16,7 +16,9 @@ Example: sorted("hello") --> ['e', 'h', 'l', 'l', 'o']
 
 Example: "".join(['e', 'h', 'l', 'l', 'o']) --> ehllo
 
-This built-in function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically; "".join(sorted(word)).
+This built-in function and method were combined in order to create a single defined function that sorts the letters of a word alphabetically;
+
+**"".join(sorted(word)).**
 
 
 **2. Emoticon Problem** – Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon.
@@ -25,27 +27,28 @@ The following functions and methods were used in this problem:
 
 A dictionary data type was utilized in order to store the equivalents of each word to an emoticon;
 
-emoticons = {"smile" : ":)", "grin" : ":D", "sad" : ":((", "mad" : ">:(" }
+**emoticons = {"smile" : ":)", "grin" : ":D", "sad" : ":((", "mad" : ">:(" }**
 
 In order to replace the word in the sentence, a for loop was used to find the word and reference it to its equivalent value in the dictionary before replacing it in the sentence;
 
-for word, symbol in emoticons.items():
-        sentence = sentence.replace(word, symbol)
+**for word, symbol in emoticons.items():**
+
+   **sentence = sentence.replace(word, symbol)**
 
 **3. Unpacking List Problem** – Unpack the list into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
 The following functions and methods were used in this problem:
 
 A sample list was given:
-list = [1, 2, 3, 4, 5, 6]
+**list = [1, 2, 3, 4, 5, 6]**
 
 Using manual slicing the corresponding values from the list were assigned to their appropriate variables and printed.
 
-first = list [0] - this assigns the value in the first index [0] of the list to the variable "first"
+**first = list [0]** - this assigns the value in the first index [0] of the list to the variable "first"
 
-middle = list [1:-1] - [1:-1] means [start at index 1 : then stop at the index before index -1], therefore assigning the values in the middle of the list to the variable "middle"
+**middle = list [1:-1]** - [1:-1] means [start at index 1 : then stop at the index before index -1], therefore assigning the values in the middle of the list to the variable "middle"
 
-last = list [-1] - this assigns the value in the last index [-1] of the list to the variable "last"
+**last = list [-1]** - this assigns the value in the last index [-1] of the list to the variable "last"
 
 Thank you for reading! 
 
