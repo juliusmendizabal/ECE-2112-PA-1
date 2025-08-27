@@ -46,7 +46,7 @@ Using manual slicing the corresponding values from the list were assigned to the
 
 **first = list [0]** - this assigns the value in the first index [0] of the list to the variable "first"
 
-**middle = list [1:-1]** - [1:-1] means [start at [1] : then stop at [-1] but exclude its value], therefore assigning the all values in the middle of the list to the variable "middle"
+**middle = list [1:-1]** - [1:-1] means [start at [1] : then stop at [-1] but exclude its value], therefore assigning all the values in the middle of the list to the variable "middle"
 
 **last = list [-1]** - this assigns the value in the last index [-1] of the list to the variable "last"
 
