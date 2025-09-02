@@ -4,7 +4,9 @@
 
 The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2025-2026. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
 
-# **1. Alphabet Soup Problem**: Create a function that takes a string and returns a string with its letters in alphabetical order.
+# **1. Alphabet Soup Problem**
+
+Create a function that takes a string and returns a string with its letters in alphabetical order.
 
 The following functions and methods were used in this problem:
 
@@ -21,7 +23,9 @@ This built-in function and method were combined in order to create a single defi
 **"".join(sorted(word)).**
 
 
-#**2. Emoticon Problem** – Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon.
+# **2. Emoticon Problem**
+
+Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon.
 
 The following functions and methods were used in this problem:
 
@@ -35,7 +39,9 @@ In order to replace the word in the sentence, a for loop was used to find the wo
 
    **sentence = sentence.replace(word, symbol)**
 
-#**3. Unpacking List Problem** – Unpack the list into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
+# **3. Unpacking List Problem**
+
+Unpack the list into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
 The following functions and methods were used in this problem:
 
