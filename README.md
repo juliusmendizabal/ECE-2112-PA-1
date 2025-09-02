@@ -4,7 +4,7 @@
 
 The content of this repository contains the Programming Assignment 1 for our course "Advance Computer Programming" this S.Y. 2025-2026. This project covers three python problems pertaining to Module 1 - Base Computing with Python.
 
-#**1. Alphabet Soup Problem**: Create a function that takes a string and returns a string with its letters in alphabetical order.
+# **1. Alphabet Soup Problem**: Create a function that takes a string and returns a string with its letters in alphabetical order.
 
 The following functions and methods were used in this problem:
 
